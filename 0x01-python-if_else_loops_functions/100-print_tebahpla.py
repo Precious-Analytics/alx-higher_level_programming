@@ -4,4 +4,4 @@ for char in range(ord('z'), ord('a') - 1, -1):
     print(
             "{}".format(chr(char).upper() if case == 'lower' else chr(char)), 
             end=""
-            )
+        )
