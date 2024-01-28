@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
-""" Define the Square class """
+"""Define the Square class."""
 
 class Square:
-    """ Attributes of the Square class """
+    """Attributes of a Square."""
     pass
