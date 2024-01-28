@@ -3,6 +3,8 @@
 """Define a class called Square."""
 
 class Square:
+    """Attributes of the class Square"""
+
     def __init__(self, size=0):
         """
         Initializes a new instance of the Square class.
