@@ -17,14 +17,8 @@ class Square:
             TypeError: If size is not an integer.
             ValueError: If size is less than 0.
         """
-
-        """Use double underscore to make 'size' a private attribute."""
         self.__size = size
-
-        """Check if 'size' is an integer."""
         if not isinstance(size, int):
             raise TypeError("size must be an integer")
-
-        """Check if 'size' is non-negative."""
         elif size < 0:
             raise ValueError("size must be >= 0")
